@@ -5,7 +5,7 @@ import { connectDB } from './database/db.js';
 
 dotenv.config();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3003;
 const HOST = process.env.HOST || '0.0.0.0';
 
 await connectDB();
